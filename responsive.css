@@ -1,0 +1,214 @@
+/* tablet and below */
+@media (max-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding:20px;
+  }
+
+  .container {
+   width: 450px;
+   max-height: 390%;     /* 👈 height limit */
+   margin-top: 50px;
+   display: block;
+  }
+
+
+
+  /* 2️⃣ Left card (green) */
+  .leftcard {
+    position: relative;         
+    width: 200%;
+    max-width: 350px;
+    height: 35%;
+    margin: 0 auto;
+    z-index: 3;
+    margin-top: -18px;
+    right: 2px;
+  }
+
+  /* 3️⃣ HERO KIWI IMAGE */
+  .leftcard .hero {
+    position: relative;
+    margin: 20px auto 0;
+    display: block;
+    left: 0;
+    top: -33px;
+    transform: rotate(-8deg);
+    width: 70%;          
+    max-width: 300px;
+  }
+
+  .kiwi {
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+   
+  }
+
+  .kiwi img {
+    width: 45px;
+    height: 45px;
+
+  } 
+
+  .rightcard {
+    width: 100%;
+    display: flex;             
+    flex-direction: column;
+    align-items: flex-start;    
+    text-align: left;           
+    padding: 20px;
+    margin-left: 15px;
+  }
+
+
+  .rightcard h1 {
+    font-size: 30px;
+    margin-top: -35px;  
+    margin-left: 90px;
+  }
+
+  .rightcard .price{
+    margin-top: -8px;  
+    margin-left: 130px;
+  }
+
+  .rightcard .amount {
+    font-size: 32px;
+  }
+
+  .rightcard .benefit{
+    margin-top: -113px;  
+    margin-left: 180px;
+  }
+
+  .button-62 {
+  display: block;
+  margin: 30px auto 0;
+  margin-left: 105px;
+}
+
+  }
+
+
+
+/* Mobile Responsive Code */
+
+
+@media (max-width: 500px){
+
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;   /* 👈 STACK */
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 360px;   /* mobile safe */
+   min-height: 560px;
+    margin: 0 auto;
+  }
+
+  .leftcard {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    right: 0;
+    margin-top: -15px;
+  }
+
+
+  .leftcard .hero {
+    margin-top: -12px;
+  }
+
+  .rightcard h1 {
+    margin-left: 50px;
+  }
+
+  .rightcard .price{
+    margin-left: 100px;
+   }
+
+  .button-62 {
+     margin-left: 60px; 
+}
+
+}
+  
+ /* 380px screen responsive */
+
+@media (max-width: 380px) {
+
+  /* .container {
+    width: 100%;
+    max-height: 500px;     
+    padding-bottom: 40px; 
+  }
+
+  .button-62 {
+    margin: 25px auto 0;   
+    display: block;
+  } */
+
+ 
+  .wrapper {
+    width: 100%;
+    padding: 20px 10px;
+    overflow-x: hidden;   /* 👈 MOST IMPORTANT */
+  }
+
+  .container {
+    width: 100%;
+    max-width: 320px;     /* 👈 small mobile safe */
+    margin: 0 auto;
+    padding: 20px 15px 35px;
+    border-radius: 20px;
+  }
+
+  .leftcard {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    margin-top: -35px; 
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .leftcard .hero {
+    width: 80%;
+    max-width: 220px;
+    transform: rotate(-6deg);
+    margin-top: -15px; 
+  }
+  .rightcard {
+    width: 100%;
+    margin: 0;
+    padding: 10px 5px;
+  }
+  .rightcard h1 {
+    margin-top: 15px;   /* value apni need ke hisaab se 20–35px */
+  }
+
+   .rightcard .benefit li {
+    font-size: 15px;   /* 12px bhi rakh sakti ho */
+  }
+
+  .button-62 {
+    display: block;
+    margin-top: 20px;
+  }
+
+
+}
+
+

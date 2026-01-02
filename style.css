@@ -1,0 +1,197 @@
+/* Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a9b459;
+}
+
+.container {
+  width: 560px;
+  height: 520px;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* left card start */
+
+.container .leftcard{
+  background-color: rgb(120, 150, 15);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.leftcard{
+  width: 55%;
+  height: 450px;
+  z-index: 1;
+  margin-top: 35px;
+  position: absolute;
+  right: 50px;
+  box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 16px;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+.fa-regular {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+}
+
+
+ .leftcard .hero {
+  position: absolute;
+  width: 93%;               
+  max-width: 520px;
+  height: auto;
+  top: 5%;
+  left: -25%;              
+  z-index: 3;
+  transform: scale(1.5) rotate(15deg);
+  transform-origin: left ;
+}
+
+.leftcard .kiwi{
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;               
+  height: 72px;              
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.leftcard .kiwi img{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+/* leftcard end */
+
+
+/* right card start */
+.rightcard{
+  width: 49%; 
+  list-style: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  text-align: left; 
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.rightcard h1{
+  font-size: 30px;
+  color: #3a4f1b;
+  margin-bottom: 15px;
+ 
+}
+
+.rightcard .price {
+  color:  rgb(186, 65, 65);
+  margin-bottom: 10px;
+}
+
+.rightcard .currency{
+  font-size: 20px;
+}
+
+.rightcard .amount{
+  font-size: 40px;
+}
+
+.rightcard .color{
+  display: block;
+  color: rgb(196, 195, 195);
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.select img{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border: 1.4px solid black;
+}
+
+.select img:hover {
+  transform: scale(1.2);
+  background-color: darkgray;
+}
+
+.rightcard .benefit{
+  color: rgb(196, 195, 195);
+  opacity: 0.8;
+ 
+}
+
+.rightcard .benefit li{
+  font-size: 18px;
+  color: rgb(32, 32, 32);
+  margin-top: 10px;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* rightcard end */
+
